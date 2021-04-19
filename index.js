@@ -21,25 +21,37 @@ const changeFooter = function(){
 }
 changeFooter()
 
-const addCssClass = function(){
+const addClass = function(){
     let newClass = document.querySelectorAll('.link')  
         for(let i=0; i<newCssClass.length; i++){
             newClass[i].classList.add("amazon")        
-    }   
+        }  
 }
-addCssClass()
+
+addClass()
 
 const toggle = function(){
     let imageToggle = document.getElementsByClassName("image-phone")
     for(let i=0; i<imageToggle.length; i++){
 
         imageToggle[i].style.display = "none"
+
     }
-toggleClass()
+}
+toggle()
 // let changeColor = document.getElementById('change') 
 
 const changeColor = function () {
     document.body.style.color = "red";
     return false;
-} 
-..
+}
+
+
+
+
+
+
+
+
+
+
