@@ -16,7 +16,7 @@
 Complete exercises from 1 to 6 with just plain HTML.
 
 EX1.: Add an h1 tag with the name of your shop -->
-    <h1 onclick='h1Function()'>Smartphone Shop Website</h1>
+        <h1 id='header'>Smartphone Shop Website</h1>
 <!-- EX2.: Add a TABLE with the top 5 products of your shop -->
 <table>
     <thead>
@@ -60,11 +60,7 @@ EX1.: Add an h1 tag with the name of your shop -->
         </tr>
 
     </tbody>
-    <tfoot>  
-         <p>   
-            offers are avaliable in shop 
-        </p> 
-    </tfoot>
+   
 
 
 
@@ -78,6 +74,11 @@ EX1.: Add an h1 tag with the name of your shop -->
         <input type="submit" class="btn btn-primary">
         
     </div>
+    <tfoot>  
+            
+        offers are avaliable in shop 
+     
+    </tfoot>
 </form>
 <!-- EX3.: Insert for each product an image, a title, a description and a price -->
 
@@ -102,10 +103,11 @@ EX1.: Add an h1 tag with the name of your shop -->
 <!-- EX12: Write a function to color the price of each product in a different one every time it's invoked -->
      
 
-<footer class= "pageFooter" onClick='changeFooter()'>
+<footer class= "pageFooter" Click='changeFooter()'>
     &copy; 2021 Smartphone shop - Address<time new datetime="19-04-2021T14:59+01:00 ">Piazza Duomo Milano</time> 
     
 </footer>
+
     <script src="index.js"></script>
   </body>
 </html>
