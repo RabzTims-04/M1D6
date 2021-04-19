@@ -30,7 +30,7 @@ const addCssClass = function(){
 addCssClass()
 
 const toggle = function(){
-    let imageToggle = document.querySelectorAll(".Image")
+    let imageToggle = document.getElementsByClassName("image-phone")
     for(let i=0; i<imageToggle.length; i++){
 
         imageToggle[i].style.display = "none"
@@ -42,4 +42,4 @@ const changeColor = function () {
     document.body.style.color = "red";
     return false;
 } 
-console.log('hello world')
+..

@@ -12,3 +12,8 @@ tbody{
 table{
     align-items: center;
 }
+.image-phone{
+    border: 3em;
+    height: 150px;
+    width: 150px;
+}
