@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <title>M1D6 EXCERCISE</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+
+  <body>
+    <!-- You have been assigned to the creation of a Smartphone Shop Website. The homepage you're about to write is just a showcase of the products of the shop with some extra information. No shopping cart / checkout features are required.
+
+Complete exercises from 1 to 6 with just plain HTML.
+
+EX1.: Add an h1 tag with the name of your shop -->
+    <h1 onclick='h1Function()'>Smartphone Shop Website</h1>
+<!-- EX2.: Add a TABLE with the top 5 products of your shop -->
+<table>
+    <thead>
+        <tr>
+            <th>Top Products</th>
+            <th>Model</th>
+            <th>Pictures</th>
+            <th>price</th>	
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="iphone-12"> 
+            <td><a href="https://www.amazon.com/dp/B08L5R1CCC/ref_=vn_s_iwp_0?pd_rd_w=lrDeN&pf_rd_p=84cbcc8f-0fe2-44fc-ae2a-87f8b101dbca&pf_rd_r=92MXM9QXYF4C4BNJ7FYK&pd_rd_r=30d3c7aa-f416-438c-9a1b-47fb778f556a&pd_rd_wg=SB8Y2&qid=1618834192" id= 'a' target="_blank"> iphone</a> </td>
+            <td>12 pro max</td>
+            <td ><img class='image-phone'src="https://www.kickmobiles.com/images/thumbs/0013868_apple-iphone-12-pro-max_808.jpeg" alt="image"style="width: 150px"></td>
+            <td id= 'change'>1200 euro/only</td>
+        </tr>
+        <tr class="iphone-12"> 
+            <td><a href="https://www.amazon.com/dp/B08L5NRZNW/ref=fs_a_iwp2_1" id= 'a' target="_blank">Iphone</a> </td>
+            <td>12 pro </td>
+            <td ><img class='image-phone'src="https://www.kickmobiles.com/images/thumbs/0013868_apple-iphone-12-pro-max_808.jpeg" alt="image"style="width: 150px"></td>
+            <td id= 'change'>1100 euro/only</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.amazon.com/Samsung-Electronics-Smartphone-Long-Lasting-SM-N981UZNAXAA/dp/B08BX8BZ1P/ref=sr_1_1_sspa?dchild=1&keywords=samsung+note+20+ultra&qid=1618834459&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExR1NTVTA4NU1ZVVZWJmVuY3J5cHRlZElkPUEwMjg5MDg1M0dUUzVDRE5FUFA3MCZlbmNyeXB0ZWRBZElkPUEwODcxMDQwMllNMUlVTzZHR0RWSCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=" id= 'a'target='_blank'>Samsung</a> </td>
+            <td>Note 20 ultra</td>
+            <td><img class='image-phone'src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Snag_4205d552.png" alt="images"style="width: 150px"></td>
+            <td id= 'change'>1000 euro/only</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.amazon.com/Samsung-Unlocked-Smartphone-Pro-Grade-SM-G991UZAEXAA/dp/B08N38M7NT/ref=sr_1_1_sspa?crid=ESPKUFA9HBUM&dchild=1&keywords=samsung+s21+ultra&qid=1618834345&sprefix=samsung+s21+%2Caps%2C286&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFSTVBBU1NRTlBYM0EmZW5jcnlwdGVkSWQ9QTA1MjMzODAxMVNJUklUTE02WkdXJmVuY3J5cHRlZEFkSWQ9QTA1OTgwMzYyTkJJQURDMjZKTFlOJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==" id= 'a' target="_blank">Samsung</a> </td>
+            <td>S21 ultra</td>
+            <td><img class='image-phone'src="https://www.coolsmartphone.com/wp-content/uploads/2020/02/Galaxy-S20-S20-Plus-S20-Ultra-2.jpg" alt="images"style="width: 150px"></td>
+            <td id= 'change'>1200 euro/only</td>
+        </tr>
+        <tr>
+            <td><a href=""target='_blank'>Xiaomi</a> </td>
+            <td>Redmi note 10</td>
+            <td><img class='image-phone'src="https://www.hwupgrade.it/immagini/RedmiNote10Family_5.jpg" alt=""style="width: 150px"></td>
+            <td id= 'change'>700 euro/only</td>
+        </tr>
+
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>
+            </td>
+
+        </tr>
+
+    </tfoot>
+
+
+
+
+</table>
+<form>
+    <div class="form-group">
+        
+        <label for="number">Comments</label>
+        <input  type="number" class="form-control">
+        <input type="submit" class="btn btn-primary">
+        
+    </div>
+</form>
+<!-- EX3.: Insert for each product an image, a title, a description and a price -->
+
+<!-- EX4.: Add links to existing Amazon products for each item in the table -->
+
+<!-- EX5.: Add a footer with the address and the name of your shop -->
+
+ <!-- a message board where the user can type a message in EX6.: Addit (no real posting/saving features required!) -->
+
+<!-- EXTRA (use JavaScript code here) -->
+
+<!-- EX7.: Write a function to change the h1 text -->
+
+<!-- EX8.: Write a function to change the page background color -->
+
+<!-- EX9.: Write a function to change the footer address with a fake one -->
+
+<!-- EX10.: Write a function to add a CSS class to every Amazon link -->
+
+<!-- EX11: Write a function to toggle a CSS class for all the images in the table; that class should set the visibility of the image -->
+
+<!-- EX12: Write a function to color the price of each product in a different one every time it's invoked -->
+     
+
+<footer class= "pageFooter" onClick='changeFooter()'>
+    &copy; 2021 Smartphone shop - Address<time new datetime="19-04-2021T14:59+01:00 ">Piazza Duomo Milano</time> 
+    
+</footer>
+    <script src="index.js"></script>
+  </body>
+</html>
