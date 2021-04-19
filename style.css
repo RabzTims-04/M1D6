@@ -3,3 +3,12 @@
 	margin : 0 10px ;
 	background-color: #0accf9;
 }
+tbody{
+   color: aliceblue ;
+   background-color: beige;
+   align-items: baseline;
+   
+}
+table{
+    align-items: center;
+}
